@@ -187,20 +187,20 @@
 
             if (allFieldsFilled) {
                 // Change the button text to "Registered Successfully"
-                joinButton.value = 'Registered Successfully';
+                joinButton.value = 'Registered';
 
                 // Redirect to index.html after a delay (in this example, after 2 seconds)
                 setTimeout(function() {
                     window.location.href = 'index.html';
-                }, 1000); // 1000 milliseconds = 1 second
+                }, 1500); // 1000 milliseconds = 1 second
             } else {
                 // Change the button text to "Field(s) can't be empty"
                 joinButton.value = "Field(s) can't be empty";
 
-                // Revert back to "Join" after 1 second
+                // Revert back to "Join" after 2 second
                 setTimeout(function() {
                     joinButton.value = 'Join';
-                }, 1000); // 1000 milliseconds = 1 second
+                }, 2000); // 2000 milliseconds = 2 second
             }
         });
     });

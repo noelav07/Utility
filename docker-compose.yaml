@@ -1,0 +1,9 @@
+version: '3.1'
+
+services:
+
+  utility:
+    #build: .
+    image: noelav07/utility:2.0
+    ports: 
+      - 1001:8090

@@ -7,3 +7,4 @@ services:
     #image: noelav07/utility:2.0
     ports: 
       - 1000:8090
+    restart:  unless-stopped

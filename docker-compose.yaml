@@ -6,4 +6,4 @@ services:
     build: .
     #image: noelav07/utility:2.0
     ports: 
-      - 1001:8090
+      - 1000:8090
